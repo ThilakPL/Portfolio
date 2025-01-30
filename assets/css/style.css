@@ -1096,3 +1096,11 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+.favicon {
+  width: 32px;       /* Adjust size as needed */
+  height: 32px;
+  border-radius: 50%; /* Makes it round */
+  object-fit: cover;  /* Ensures it crops properly */
+}
+
