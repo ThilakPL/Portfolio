@@ -920,32 +920,24 @@ section .container {
   font-size: 14px;
   margin: 0 0 0 68px;
 }
+
 .contact .info-box .social-links {
-  margin-top: 5px;
+  margin: 5px 0 0 68px;
   display: flex;
-  justify-content: center; /* Align icons properly */
-  flex-wrap: wrap; /* Prevents overflow issues */
-  gap: 10px; /* Adds spacing between icons */
 }
 
 .contact .info-box .social-links a {
-  font-size: 16px; /* Reduce icon size for better alignment */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 18px;
+  display: inline-block;
   color: #fff;
+  line-height: 1;
+  margin-right: 12px;
   transition: 0.3s;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%; /* Optional: make them circular */
-  background-color: #333; /* Optional: add a background */
 }
 
 .contact .info-box .social-links a:hover {
   color: #12d640;
-  background-color: #222; /* Optional: hover effect */
 }
-
 
 .contact .php-email-form {
   padding: 30px;
@@ -1104,11 +1096,3 @@ section .container {
     transform: translateX(-50%);
   }
 }
-
-.favicon {
-  width: 32px;       /* Adjust size as needed */
-  height: 32px;
-  border-radius: 50%; /* Makes it round */
-  object-fit: cover;  /* Ensures it crops properly */
-}
-
